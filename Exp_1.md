@@ -59,7 +59,7 @@ Power dissipation in the MOSFET:
 
 PMOS IDX (VDD - VD)
 
-P_{MOS} = (27.67 \times 10^{-6}) \times (1.8 - 1.77233) ]
+P_MOS = (27.67 × 10^{-6})× (1.8 - 1.77233) 
 
 PMOS ≈ 0.76μW
 
@@ -67,9 +67,11 @@ Total power consumption:
 
 PTotal IDX VDD
 
-P_{Total} = (27.67 \times 10^{-6}) \times 1.8]
+P_Total= (27.67 × 10^{-6}) × 1.8]
 
 PTotal ≈ 49.8µW
+
+Q point ( 1.77 V ,27.76×10^-6A)
 
 Voltage Gain Calculation
 
@@ -77,27 +79,35 @@ The small-signal gain of the CS amplifier is given by:
 
 Av = -gmRD
 
-• Transconductance (g_m) ≈ Vov VGS-Vth 2ID , with
+• Transconductance (g_m) ≈ Vov VGS-Vth 2ID 
 
 • Drain Resistor (R_D) = 1ΚΩ
 
 Using approximate values (assuming Vth≈ 0.4V and VGs ≈ 0.9V):
 
-Von 0.90.4 = 0.5V ου
-
-g_m = \frac{2 \times 27.67 \times 10^{-6}} {0.5} = 0.11
+g_m =2 × 27.67 × 10^{-6}} {0.5} = 0.11
 Av = -(0.11 × 10-3) × (1 × 10³)
-gain is approximately -11 V/V
+gain is approximately -11 dB
+
 
 Bandwidth Calculation:
 
 fc = 2π(103) (5×10-15)
 
-fc 1 2π×5×10-12
+fc 1/2π×5×10-12
 
 1 fc = 3.14×10-11
 
 fc ≈ 31.8 GHz
+
+
+AC analysis 
+![IMG-20250217-WA0018](https://github.com/user-attachments/assets/1a54421d-ce1d-43d7-b3f6-7380b9e462a0)
+
+transient 
+![IMG-20250217-WA0017](https://github.com/user-attachments/assets/79ab637a-e409-4d58-af90-9f3e80ed3923)
+
+
 
 
 
