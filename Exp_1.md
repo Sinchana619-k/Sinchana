@@ -107,6 +107,22 @@ AC analysis
 transient 
 ![IMG-20250217-WA0017](https://github.com/user-attachments/assets/79ab637a-e409-4d58-af90-9f3e80ed3923)
 
+# circuit 2
+ ![1000086495](https://github.com/user-attachments/assets/c449d331-ad59-486b-8e4d-95606bd1f0f9)
+
+DC analysis 
+![1000086337](https://github.com/user-attachments/assets/593a5821-66fb-4d6a-9a35-57e3ad91e218)
+
+
+AC analysis 
+![1000086504](https://github.com/user-attachments/assets/2eafa119-aa7e-4c85-89f9-e968277a6001)
+
+transient analysis 
+![1000086503](https://github.com/user-attachments/assets/8d7ae470-29e5-4635-88c0-bb02f618141a)
+
+
+
+
 
 
 
