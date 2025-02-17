@@ -41,6 +41,36 @@ This setup is used to determine DC operating point, voltage gain, bandwidth, and
 DC analysis 
 ![1000086502](https://github.com/user-attachments/assets/89517c7f-2d95-4ef2-9ee6-343e9c7e976e)
 
+calculation 
+
+1 DC Operating Point (from LTspice results)
+
+• V(n002) (Gate Voltage, V_G) = 0.9V
+
+• V(n003) (Drain Voltage, V_D) = 1.77233V
+
+• V(n001) (VDD) = 1.8V
+
+• Drain Current (I_D) = 2.76742 x 10-5 A = 27.67 μΑ
+
+2. Power Dissipation
+
+Power dissipation in the MOSFET:
+
+PMOS IDX (VDD - VD)
+
+P_{MOS} = (27.67 \times 10^{-6}) \times (1.8 - 1.77233) ]
+
+PMOS ≈ 0.76μW
+
+Total power consumption:
+
+PTotal IDX VDD
+
+P_{Total} = (27.67 \times 10^{-6}) \times 1.8]
+
+PTotal ≈ 49.8µW
+
 
 
 
