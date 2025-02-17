@@ -71,6 +71,33 @@ P_{Total} = (27.67 \times 10^{-6}) \times 1.8]
 
 PTotal ≈ 49.8µW
 
+Voltage Gain Calculation
+
+The small-signal gain of the CS amplifier is given by:
+
+Av = -gmRD
+
+• Transconductance (g_m) ≈ Vov VGS-Vth 2ID , with
+
+• Drain Resistor (R_D) = 1ΚΩ
+
+Using approximate values (assuming Vth≈ 0.4V and VGs ≈ 0.9V):
+
+Von 0.90.4 = 0.5V ου
+
+g_m = \frac{2 \times 27.67 \times 10^{-6}} {0.5} = 0.11
+Av = -(0.11 × 10-3) × (1 × 10³)
+gain is approximately -11 V/V
+
+Bandwidth Calculation:
+
+fc = 2π(103) (5×10-15)
+
+fc 1 2π×5×10-12
+
+1 fc = 3.14×10-11
+
+fc ≈ 31.8 GHz
 
 
 
