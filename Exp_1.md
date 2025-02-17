@@ -33,8 +33,10 @@ This setup is used to determine DC operating point, voltage gain, bandwidth, and
 
 # circuit diagram 
 # circuit 1
-simulation 
+
 ![1000086513](https://github.com/user-attachments/assets/65689cb2-3d74-4747-aec1-55fd172eb593)
+
+#simulation
 
 DC analysis 
 ![1000086502](https://github.com/user-attachments/assets/89517c7f-2d95-4ef2-9ee6-343e9c7e976e)
