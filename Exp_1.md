@@ -108,6 +108,10 @@ transient
 ![IMG-20250217-WA0017](https://github.com/user-attachments/assets/79ab637a-e409-4d58-af90-9f3e80ed3923)
 
 # circuit 2
+In this circuit the resistor is replaced by pmos transistor.
+
+This circuit consist of TSMC 180nm NMOS and PMOS transistor (CMOSN) , drain resistor and voltage sources (V1 & V2) . Threshold voltage : 0.36v, Supply voltage : 1.8v , input voltage :0.9v Amplitude : 50mv , Frequency : 1KHz. vb=?
+
  ![1000086495](https://github.com/user-attachments/assets/c449d331-ad59-486b-8e4d-95606bd1f0f9)
 
 DC analysis 
@@ -119,6 +123,44 @@ AC analysis
 
 transient analysis 
 ![1000086503](https://github.com/user-attachments/assets/8d7ae470-29e5-4635-88c0-bb02f618141a)
+
+# inference 
+Inference of the CS Amplifier Experiment
+
+1. DC Operating Point Analysis:
+
+The MOSFET operates in the saturation region, which is crucial for amplification.
+
+The drain current () and node voltages are obtained from LTspice, helping to verify biasing conditions.
+
+
+2. Transient Analysis:
+
+The amplifier successfully amplifies the input sine wave while preserving its shape.
+
+The output waveform confirms the inverting nature of a CS amplifier.
+
+The gain () is extracted from the output peak-to-peak voltage.
+
+
+3. AC Analysis:
+
+The amplifier exhibits a frequency response with a defined bandwidth ().
+
+The -3dB cutoff frequency determines the upper frequency limit for effective signal amplification.
+
+The gain is dependent on  and MOSFET transconductance.
+
+4. Power Analysis:
+
+The total power consumption remains within the specified budget (≤ 50 µW), ensuring energy efficiency.
+
+The power dissipation is mainly in the MOSFET and drain resistor.
+
+
+
+
+
 
 
 
