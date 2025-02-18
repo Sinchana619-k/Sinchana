@@ -125,13 +125,13 @@ transient analysis
 ![1000086503](https://github.com/user-attachments/assets/8d7ae470-29e5-4635-88c0-bb02f618141a)
 
 # inference 
-Inference of the CS Amplifier Experiment
 
 1. DC Operating Point Analysis:
 
 The MOSFET operates in the saturation region, which is crucial for amplification.
 
-The drain current () and node voltages are obtained from LTspice, helping to verify biasing conditions.
+The drain current (Id) and node voltages are obtained from LTspice, helping to verify biasing conditions.
+
 
 
 2. Transient Analysis:
@@ -140,7 +140,7 @@ The amplifier successfully amplifies the input sine wave while preserving its sh
 
 The output waveform confirms the inverting nature of a CS amplifier.
 
-The gain () is extracted from the output peak-to-peak voltage.
+The gain  is extracted from the output peak-to-peak voltage.
 
 
 3. AC Analysis:
@@ -156,6 +156,9 @@ The gain is dependent on  and MOSFET transconductance.
 The total power consumption remains within the specified budget (≤ 50 µW), ensuring energy efficiency.
 
 The power dissipation is mainly in the MOSFET and drain resistor.
+
+
+
 
 
 
