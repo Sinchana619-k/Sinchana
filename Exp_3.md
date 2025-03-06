@@ -26,6 +26,97 @@ Key Components used here:
 
 3.Resistor: The resistor acts as a pull-up resistor for the output node.
 
+# procedure:
+Steps to Perform DC, Transient, and AC Analysis in LTspice
+
+1. Setting Up LTspice and Importing the Library
+
+Open LTspice and load the necessary MOSFET model library to ensure accurate simulations.
+
+Merge the tsmc018.lib file (or another relevant library) to include NMOS specifications.
+
+
+2. Selecting and Placing Components
+
+Choose required components from the LTspice library:
+
+Resistors: 1.833kΩ (×2), 0.416kΩ (for Circuit 1).
+
+MOSFETs: 2 × CMOSN transistors.
+
+Voltage Sources:
+
+VDD = 2.5V (Power supply).
+
+VICM = 1.3V (Common-mode voltage).
+
+
+Ground (GND) to complete the circuit.
+
+
+Arrange and connect the components properly as per the circuit schematic.
+
+
+3. Setting MOSFET Parameters
+
+Specify MOSFET properties such as:
+
+Threshold voltage (Vth)
+
+Temperature
+
+Process variations
+
+
+Ensure both MOSFETs operate in the saturation region, satisfying:
+
+
+V_{DS} > V_{GS} - V_{th}
+
+4. Performing DC Analysis
+
+Choose .op (Operating Point Analysis) to check the biasing conditions.
+
+Run the simulation to obtain voltages and currents at different nodes.
+
+Verify that the MOSFETs are in saturation and check the common-mode voltage (VOCM).
+
+
+5. Performing Transient Analysis
+
+Apply a time-varying input signal (e.g., SINE(1.3V, 50mV, 1kHz)).
+
+Configure transient simulation settings for a 5ms time window.
+
+Run the simulation to observe input and output waveforms for multiple cycles.
+
+Compare individual and combined waveforms to evaluate the amplifier response.
+
+
+6. Performing AC Analysis
+
+Modify the input voltage source to an AC sinusoidal waveform:
+
+SINE(1.3V, 50mV, 1T)
+
+Use parameters:
+
+Type: Decade
+
+Start Frequency: 0.1 Hz
+
+Stop Frequency: 1 THz
+
+Points per decade: 20
+
+
+Run the simulation and plot gain (Vout/Vin) vs frequency to analyze frequency response.
+
+
+
+ 
+
+
 ![1000089981](https://github.com/user-attachments/assets/0ccc86ad-c152-4abd-80bc-18f097793aa2)
 
 In this circuit,
