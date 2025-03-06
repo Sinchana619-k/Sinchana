@@ -190,9 +190,12 @@ Here we are replacing the current source to the mosfet(M3) where we need to keep
 ![1000090021](https://github.com/user-attachments/assets/4d02f5e3-6b6f-4f9f-85f5-aff2a96bed5e)
 
 # Transient Analysis 
-![1000090022](https://github.com/user-attachments/assets/24a9ec4b-c20a-4aeb-baed-1eaf4addf2cd)
+![1000090047](https://github.com/user-attachments/assets/0df1125b-184e-4124-87ed-bf01ed1a5840)
+
+
 # AC analysis 
-![1000090018](https://github.com/user-attachments/assets/9bc700eb-8ec0-49e7-999f-d914a49cbac6)
+![1000090048](https://github.com/user-attachments/assets/5c2a3fa5-c8c4-460e-bae5-980f78e595d4)
+
 
 # Inference 
 The MOSFET differential amplifier functions correctly, with proper biasing ensuring operation in the saturation region and achieving the desired VICM = 1.3V and VOCM = 1.4V. The transient analysis confirms differential signal amplification with minimal distortion, while the frequency response suggests an appropriate gain with a well-defined bandwidth, though exact verification of the -3dB cutoff is recommended. The circuit meets design specifications, but fine-tuning W/L ratios or bias currents may optimize gain and bandwidth. Overall, the amplifier is stable, functional, and effective, with minor adjustments potentially enhancing performance.
