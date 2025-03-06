@@ -71,7 +71,7 @@ Process variations
 Ensure both MOSFETs operate in the saturation region, satisfying:
 
 
-V_{DS} > V_{GS} - V_{th}
+V_DS > V_GS - V_th
 
 4. Performing DC Analysis
 
