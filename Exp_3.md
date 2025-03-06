@@ -156,11 +156,15 @@ from this we got Qpoint(operating point)
 ![1000089924](https://github.com/user-attachments/assets/15ae99a3-27df-469a-a19a-fb3be33925d8)
 
  # transient analysis 
+ This analysis reveals how the circuit might distort the signal, introduce unwanted DC offsets between input and output, or cause timing issues like phase distortion. Such information is vital for identifying and correcting problems within the circuit.
+ 
+Av=(1.4718-1.3287/1.3481-1.2504)V/V 
+
+=1.4646V/V
+
  ![1000089978](https://github.com/user-attachments/assets/9d3b00ec-17a8-48dd-91da-34e2a4f70af3)
 
-Vinp-p= 1.35-1.26=0.09V
-Voutp-p=1.476-1.33=0.14V
-so,Av=1.55V
+
 
 # AC analysis 
 ![1000089975](https://github.com/user-attachments/assets/3a9010fe-5247-433c-ba63-1182c2158522)
