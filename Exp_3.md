@@ -60,3 +60,21 @@ Av=3.2dB
 
 # Circuit 2
 
+# DC analysis 
+![1000090021](https://github.com/user-attachments/assets/f3a8ed3b-d3da-4591-9442-f8d4277f6e8e)
+
+# transient analysis 
+![1000090027](https://github.com/user-attachments/assets/f9e96bae-af66-43e9-930a-0a0bdd9fea92)
+# ac analysis 
+![1000090026](https://github.com/user-attachments/assets/92fdc81a-1a12-4a37-904c-dedf5b2d3f70)
+
+# Circuit 3
+![1000090019](https://github.com/user-attachments/assets/fb28e4af-b503-46e1-b2bb-ee1c1640e921)
+
+# DC analysis 
+![1000090021](https://github.com/user-attachments/assets/4d02f5e3-6b6f-4f9f-85f5-aff2a96bed5e)
+
+# Transient Analysis 
+![1000090022](https://github.com/user-attachments/assets/24a9ec4b-c20a-4aeb-baed-1eaf4addf2cd)
+# AC analysis 
+![1000090018](https://github.com/user-attachments/assets/9bc700eb-8ec0-49e7-999f-d914a49cbac6)
