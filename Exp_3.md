@@ -178,6 +178,8 @@ Av=3.2dB
 ![1000090026](https://github.com/user-attachments/assets/92fdc81a-1a12-4a37-904c-dedf5b2d3f70)
 
 # Circuit 3
+Here we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region so that voltage gain will be maintained.In this ciruit MMOSFETis connected to drain to source terminal and to other ground.
+
 ![1000090019](https://github.com/user-attachments/assets/fb28e4af-b503-46e1-b2bb-ee1c1640e921)
 
 # DC analysis 
