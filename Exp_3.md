@@ -12,7 +12,8 @@ By utilizing LTspice, we ensured accurate modeling of circuit behavior, and the 
 
 Question : Design Differential amplifier for the following specifications vdd=2.5v ,P<=3mW,vicm=1.3v ,vocm=1.4v, vp=0.5v. Perform Dc analysis, transient analysis, frequency response and extract the required parameters.
 
-![1000089962](https://github.com/user-attachments/assets/4290f1d2-7d93-4c66-af3a-a4055d69cb02)
+![1000089963](https://github.com/user-attachments/assets/2920a8b3-e58f-4ae3-bc56-65e65855456c)
+
 
 # Theory 
 A MOSFET differential amplifier amplifies the difference between two input signals while rejecting common-mode noise, making it essential in precision applications. It consists of two matched MOSFETs with a common current source, ensuring balanced operation. When differential signals are applied, the transistors conduct differently, producing an amplified output. The experiment involves DC analysis to determine the operating point (voltages and currents), transient analysis to observe its response to time-varying signals, frequency response analysis to evaluate its gain over different frequencies, and parameter extraction to measure critical characteristics like gain, bandwidth, input/output swing, and common-mode rejection ratio (CMRR). The design must ensure proper biasing and stability to achieve optimal amplification performance within the given specifications.
@@ -27,18 +28,24 @@ Key Components used here:
 
 ![1000089981](https://github.com/user-attachments/assets/0ccc86ad-c152-4abd-80bc-18f097793aa2)
 
-#In this circuit,
+In this circuit,
 VG=1.3V
 Vp=0.5=Vs
 VGS=VG-VS
 1.3-0.5 = 0.8V
 Vt=4.95V
 Vov=VGS-Vt
+
 0.8-0.45
+
 0.305V
+
 VDS=VDD-IdRd-Vp
+
  =2.5-1.8k×0.6m-0.5
+ 
  =0.92V
+ 
  VDS>=Vov
  so circuit is in saturation region 
 
