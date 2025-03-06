@@ -27,7 +27,7 @@ Key Components used here:
 
 ![1000089981](https://github.com/user-attachments/assets/0ccc86ad-c152-4abd-80bc-18f097793aa2)
 
-In this circuit,
+#In this circuit,
 VG=1.3V
 Vp=0.5=Vs
 VGS=VG-VS
