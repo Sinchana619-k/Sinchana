@@ -179,6 +179,11 @@ Av=3.2dB
 
 # transient analysis 
 ![1000090027](https://github.com/user-attachments/assets/f9e96bae-af66-43e9-930a-0a0bdd9fea92)
+
+Voltage gain= vout/vin =(1.6287-1.1744)/(1.3982-1.2503) 
+
+=4.533V/V
+
 # ac analysis 
 ![1000090026](https://github.com/user-attachments/assets/92fdc81a-1a12-4a37-904c-dedf5b2d3f70)
 
