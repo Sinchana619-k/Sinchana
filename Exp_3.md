@@ -151,7 +151,7 @@ VDS=VDD-IdRd-Vp
  
 ![1000089979](https://github.com/user-attachments/assets/2e0ab2af-643e-459c-8ca3-1600b8763a3c)
 from this we got Qpoint(operating point)
-(1.4,
+(1.4,0.6m)
 
 ![1000089924](https://github.com/user-attachments/assets/15ae99a3-27df-469a-a19a-fb3be33925d8)
 
