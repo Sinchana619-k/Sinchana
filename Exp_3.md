@@ -18,6 +18,12 @@ Question : Design Differential amplifier for the following specifications vdd=2.
 A MOSFET differential amplifier amplifies the difference between two input signals while rejecting common-mode noise, making it essential in precision applications. It consists of two matched MOSFETs with a common current source, ensuring balanced operation. When differential signals are applied, the transistors conduct differently, producing an amplified output. The experiment involves DC analysis to determine the operating point (voltages and currents), transient analysis to observe its response to time-varying signals, frequency response analysis to evaluate its gain over different frequencies, and parameter extraction to measure critical characteristics like gain, bandwidth, input/output swing, and common-mode rejection ratio (CMRR). The design must ensure proper biasing and stability to achieve optimal amplification performance within the given specifications.
 
 # circuit 1
+Key Components used here:
+1.Voltage source(DC): use is to provide a DC bias voltage to the gate of the MOSFET.
+
+2.AC input: Controls drain current and enables amplification.
+
+3.Resistor: The resistor acts as a pull-up resistor for the output node.
 
 ![1000089981](https://github.com/user-attachments/assets/0ccc86ad-c152-4abd-80bc-18f097793aa2)
 
