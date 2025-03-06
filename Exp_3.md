@@ -31,12 +31,11 @@ Key Components used here:
 VG=1.3V
 Vp=0.5=Vs
 VGS=VG-VS
-    1.3-0.5
-   = 0.8V
+1.3-0.5 = 0.8V
 Vt=4.95V
 Vov=VGS-Vt
-     0.8-0.45
-     0.305V
+0.8-0.45
+0.305V
 VDS=VDD-IdRd-Vp
  =2.5-1.8k×0.6m-0.5
  =0.92V
