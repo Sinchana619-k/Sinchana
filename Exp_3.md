@@ -30,10 +30,15 @@ Key Components used here:
 
 In this circuit,
 VG=1.3V
+
 Vp=0.5=Vs
+
 VGS=VG-VS
+
 1.3-0.5 = 0.8V
+
 Vt=4.95V
+
 Vov=VGS-Vt
 
 0.8-0.45
@@ -47,6 +52,7 @@ VDS=VDD-IdRd-Vp
  =0.92V
  
  VDS>=Vov
+ 
  so circuit is in saturation region 
 
  # DC analysis 
