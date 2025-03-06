@@ -10,7 +10,8 @@ The experiment involved performing DC analysis to determine the operating point,
 
 By utilizing LTspice, we ensured accurate modeling of circuit behavior, and the final design, along with the simulation data, is documented.
 
-Question : Design Differential amplifier for the following specifications vdd=2.5v ,P<=3mW,vicm=1.3v ,vocm=1.4v, vp=0.5v. Perform Dc analysis, transient analysis, frequency response and extract the required parameters.
+# objective 
+Design Differential amplifier for the following specifications vdd=2.5v ,P<=3mW,vicm=1.3v ,vocm=1.4v, vp=0.5v. Perform Dc analysis, transient analysis, frequency response and extract the required parameters.
 
 ![1000089963](https://github.com/user-attachments/assets/2920a8b3-e58f-4ae3-bc56-65e65855456c)
 
