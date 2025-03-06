@@ -191,7 +191,7 @@ Voltage gain= vout/vin =(1.6287-1.1744)/(1.3982-1.2503)
 # Circuit 3
 Here we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region so that voltage gain will be maintained.In this ciruit MMOSFETis connected to drain to source terminal and to other ground.
 
-![1000090019](https://github.com/user-attachments/assets/fb28e4af-b503-46e1-b2bb-ee1c1640e921)
+
 
 # DC analysis 
 ![1000090053](https://github.com/user-attachments/assets/dea181fb-c8e3-46e5-9fb5-99475acb5f1a)
