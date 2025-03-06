@@ -194,7 +194,8 @@ Here we are replacing the current source to the mosfet(M3) where we need to keep
 ![1000090019](https://github.com/user-attachments/assets/fb28e4af-b503-46e1-b2bb-ee1c1640e921)
 
 # DC analysis 
-![1000090021](https://github.com/user-attachments/assets/4d02f5e3-6b6f-4f9f-85f5-aff2a96bed5e)
+![1000090053](https://github.com/user-attachments/assets/dea181fb-c8e3-46e5-9fb5-99475acb5f1a)
+
 
 # Transient Analysis 
 ![1000090047](https://github.com/user-attachments/assets/0df1125b-184e-4124-87ed-bf01ed1a5840)
