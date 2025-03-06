@@ -174,7 +174,8 @@ Av=3.2dB
 # Circuit 2
 
 # DC analysis 
-![1000090021](https://github.com/user-attachments/assets/f3a8ed3b-d3da-4591-9442-f8d4277f6e8e)
+![1000090052](https://github.com/user-attachments/assets/7e055a5c-5c09-480c-b0a7-1ea6f8b90283)
+
 
 # transient analysis 
 ![1000090027](https://github.com/user-attachments/assets/f9e96bae-af66-43e9-930a-0a0bdd9fea92)
