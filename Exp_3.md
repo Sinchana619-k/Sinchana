@@ -194,15 +194,24 @@ Here we are replacing the current source to the mosfet(M3) where we need to keep
 
 
 # DC analysis 
-![1000090053](https://github.com/user-attachments/assets/dea181fb-c8e3-46e5-9fb5-99475acb5f1a)
+![1000090290](https://github.com/user-attachments/assets/73472cbe-e313-42c6-97c6-4ffdc5189587)
+
 
 
 # Transient Analysis 
-![1000090047](https://github.com/user-attachments/assets/0df1125b-184e-4124-87ed-bf01ed1a5840)
+![1000090291](https://github.com/user-attachments/assets/2627dddc-4a83-4e9a-abc9-a0211bfb35b9)
 
+voltage gain of MOSFET=(Voutp-p)/(Vinp-p)
+
+(1.6257-1.1752)/(1.3500-1.2500)
+
+=4.505V/V
 
 # AC analysis 
-![1000090048](https://github.com/user-attachments/assets/5c2a3fa5-c8c4-460e-bae5-980f78e595d4)
+![1000090292](https://github.com/user-attachments/assets/f293b04e-63a9-4c5a-a44a-94cde91f61a1)
+
+
+
 
 
 # Inference 
