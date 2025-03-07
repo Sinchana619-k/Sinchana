@@ -190,6 +190,8 @@ voltage gain of MOSFET=(Voutp-p)/(Vinp-p)
 # ac analysis 
 ![1000090026](https://github.com/user-attachments/assets/92fdc81a-1a12-4a37-904c-dedf5b2d3f70)
 
+gain=13.21dB by observing the waveform 
+
 # Circuit 3
 Here we are replacing the current source to the mosfet(M3) where we need to keep current Id3 as our desired value And to keep the mosfet(M1,M2,M3) in saturation region so that voltage gain will be maintained.In this ciruit MMOSFETis connected to drain to source terminal and to other ground.
 
