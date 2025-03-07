@@ -181,9 +181,11 @@ Av=3.2dB
 # transient analysis 
 ![1000090027](https://github.com/user-attachments/assets/f9e96bae-af66-43e9-930a-0a0bdd9fea92)
 
-Voltage gain= vout/vin =(1.6287-1.1744)/(1.3982-1.2503) 
+voltage gain of MOSFET=(Voutp-p)/(Vinp-p)
 
-=4.533V/V
+(1.6257-1.1752)/(1.3500-1.2500)
+
+=4.505V/V
 
 # ac analysis 
 ![1000090026](https://github.com/user-attachments/assets/92fdc81a-1a12-4a37-904c-dedf5b2d3f70)
@@ -196,7 +198,8 @@ Here we are replacing the current source to the mosfet(M3) where we need to keep
 # DC analysis 
 ![1000090290](https://github.com/user-attachments/assets/73472cbe-e313-42c6-97c6-4ffdc5189587)
 
-
+VB(gate terminal voltage )=
+0.997V
 
 # Transient Analysis 
 ![1000090291](https://github.com/user-attachments/assets/2627dddc-4a83-4e9a-abc9-a0211bfb35b9)
