@@ -212,7 +212,7 @@ voltage gain of MOSFET=(Voutp-p)/(Vinp-p)
 
 Gain(dB)=20log(Av) =20log(4.505) =13.07dB
 
- By observing the waveform,Gain of amplifier is 13.12dB
+ By observing the waveform,Gain of amplifier is 13.21dB
 
 
 # Inference 
